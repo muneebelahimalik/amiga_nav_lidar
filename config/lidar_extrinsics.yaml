@@ -1,0 +1,5 @@
+# LiDAR extrinsic calibration relative to robot base
+# x: 0.25
+# y: 0.0
+# z: 0.8
+# yaw_deg: 0.0

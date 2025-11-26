@@ -1,0 +1,8 @@
+lidar:
+  model: "VLP-16"
+  sensor_ip: "192.168.1.69"      # IP of the LiDAR (adjust if different)
+  host_ip: "0.0.0.0"              # bind to all interfaces
+  data_port: 2368                 # UDP data port
+  packet_size: 1206               # Velodyne standard data packet size (bytes)
+  recv_buffer_size: 65535
+  log_dir: "logs/lidar"
